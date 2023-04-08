@@ -90,6 +90,12 @@ There is technically only one operator that directly generates a bang. Its the o
 
 * `D` - Delay, bang periodically (count / frame-modulo)
 
+```orca
+
+# tutorials/1_first_bleeps/2_first_bleeps.orca
+
+```
+
 ### 2. First Bleeps
 
 Operators you learn in this chapter:
@@ -114,8 +120,9 @@ Example:
 `;13C` - Pilot plays note 'C' of octave 3 (default volume and length)
 
 ### Congrats
+
 Congratulations you have witnessed the easiest programming language to make a sound. 2 operators are all you need.
-Now return to the **Tutorial main function** to plan your next adventure. 
+Now return to the **Tutorial main function** to plan your next adventure.
 
 ## Tutorial 2a: CakeTracker
 
@@ -123,7 +130,6 @@ In this tutorial we will learn how, using only 4 more operators, we can melodize
 
 Have a look into the directory `tutorials/2a_caketracker/`.   
 There is an orca program for each chapter.
-
 
 ### 1. Counter
 
@@ -153,12 +159,13 @@ Using the values of our list (in track) as note-numbers, we are now the new-age 
 Enjoy the eternal bleeps of the spotless beethoven.
 
 ### Congrats
+
 Congratulations beethoven went home crying.
 Now return to the **Tutorial main function** to plan your next adventure.
 
 ## Tutorial 2b: Scopehero
 
-This is a _very_ **empowering** tutorial with its 13 operators covered.   
+This is a _very_ **empowering** tutorial with its 13 operators covered.
 
 Have a look into the directory `tutorials/2b_scopehero/`.       
 There is an orca program for each chapter.
@@ -212,6 +219,7 @@ What is even more fun than 1 scope, is 3 scopes.
 Let generate 2 'signals', add them together to create a third signal, and use our scope technique to visualize whats going on.
 
 ### Congrats
+
 Congratulations!!! You are hardcore! your mum must be so proud of you! All that bloody brain acrobatics without even one bleep, a real martyr.
 Now return to the **Tutorial main function** to plan your next adventure.
 
