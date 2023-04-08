@@ -59,7 +59,7 @@ Download and run the binary release. The source link is just for your reference.
 * Data is just Base36 numbers '0-9' and 'a-z'
 * I/O: no I just O. MIDI/OSC/UDP
 
-# Tutorials
+# Tutorial Main Function
 
 This is the Tutorial main function. Return here after every tutorial to decide what you wanna do next.   
 Definitely, do the **Tutorial 1: First Bleeps**, first.
@@ -113,7 +113,13 @@ Where:
 Example:   
 `;13C` - Pilot plays note 'C' of octave 3 (default volume and length)
 
+### Congrats
+Congratulations you have witnessed the easiest programming language to make a sound. 2 operators are all you need.
+Now return to the **Tutorial main function** to plan your next adventure. 
+
 ## Tutorial 2a: CakeTracker
+
+In this tutorial we will learn how, using only 4 more operators, we can melodize beethoven out of the water like a piece of cake.
 
 ### 1. Counter
 
@@ -142,9 +148,13 @@ In this chapter you learn all the operators related to variables:
 Using the values of our list (in track) as note-numbers, we are now the new-age melody heroes.   
 Enjoy the eternal bleeps of the spotless beethoven.
 
+### Congrats
+Congratulations beethoven went home crying.
+Now return to the **Tutorial main function** to plan your next adventure.
+
 ## Tutorial 2b: Scopehero
 
-This is a very empowering tutorial with its 13 operators covered.   
+This is a _very_ **empowering** tutorial with its 13 operators covered.   
 Have a look into the directory `tutorials/2_scopehero/`.   
 There is an orca program for each chapter.
 
@@ -195,6 +205,10 @@ Now we can combine them to create a 'scope' to visualize and debug any variable 
 
 What is even more fun than 1 scope, is 3 scopes.  
 Let generate 2 'signals', add them together to create a third signal, and use our scope technique to visualize whats going on.
+
+### Congrats
+Congratulations!!! You are hardcore! your mum must be so proud of you! All that bloody brain acrobatics without even one bleep, a real martyr.
+Now return to the **Tutorial main function** to plan your next adventure.
 
 ## Resources
 
