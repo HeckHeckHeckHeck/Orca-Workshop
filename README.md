@@ -1,3 +1,5 @@
+![](welcome_to_orca.jpg)
+
 # Orca-Workshop
 
 Orca is an esoteric programming language and live editor designed to quickly create procedural sequencers.   
