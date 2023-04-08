@@ -80,7 +80,7 @@ fellow workshop-mates that just bleep-away with their 2 operators?
 In this tutorial we will only learn 2 of the 26 operators, and we will already be making polymetric noise.   
 Isn't that great?
 
-Have a look into the directory `tutorials/1_first_bleeps/`.
+Have a look into the directory `tutorials/1_first_bleeps/`.   
 There is an orca program for each chapter.
 
 ### 1. Bangs
@@ -120,7 +120,7 @@ Now return to the **Tutorial main function** to plan your next adventure.
 ## Tutorial 2a: CakeTracker
 
 In this tutorial we will learn how, using only 4 more operators, we can melodize beethoven out of the water like a piece of cake.
-Have a look into the directory `tutorials/2a_caketracker/`.
+Have a look into the directory `tutorials/2a_caketracker/`.   
 There is an orca program for each chapter.
 
 
@@ -158,7 +158,7 @@ Now return to the **Tutorial main function** to plan your next adventure.
 ## Tutorial 2b: Scopehero
 
 This is a _very_ **empowering** tutorial with its 13 operators covered.   
-Have a look into the directory `tutorials/2b_scopehero/`.   
+Have a look into the directory `tutorials/2b_scopehero/`.       
 There is an orca program for each chapter.
 
 ### 1. Arithmetic
