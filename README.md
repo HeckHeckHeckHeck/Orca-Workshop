@@ -51,8 +51,9 @@ Download and run the binary release. The source link is just for your reference.
 ## Language Quick Overview
 
 * Esoteric Programming Language
-* 'Frame-Oriented' language
+* 'Frame-Oriented' (execution model)
 * 26 operators `A`-`Z`
+* 1 datatype - Base36
 * Uppercase operators execute on every frame
 * Lowercase operators execute on a 'Bang'
 * Data is just Base36 numbers '0-9' and 'a-z'
@@ -60,9 +61,23 @@ Download and run the binary release. The source link is just for your reference.
 
 # Tutorials
 
+This is the Tutorial main function. Return here after every tutorial to decide what you wanna do next.   
+Definitely, do the **Tutorial 1: First Bleeps**, first.
+
+If you are reading this you must be have completed **Tutorial 1: First Bleeps**. Congratulations! You did so, right?
+
+Your next options are:  
+1.) You feel like the lazy beaver and just want to improve your bleepyness the easy way, and quickly sound
+like you know what your doing?   
+**Tutorial 2a: CakeTracker** is for you
+
+2.) You feel more like the clever rabbit, you need the deep dive, and in the end you want to know more about orca than your
+fellow workshop-mates that just bleep-away with their 2 operators?   
+**Tutorial 2b: ScopeHero** is for you.
+
 ## Tutorial 1: First Bleeps
 
-In this tutorial we will only learn 2 of the 26 operators, and we will already be making noise.   
+In this tutorial we will only learn 2 of the 26 operators, and we will already be making polymetric noise.   
 Isn't that great?
 
 Have a look into the directory `tutorials/1_first_bleeps/`.
@@ -73,7 +88,7 @@ There is an orca program for each chapter.
 The 'bang' is the trigger that activates lower-case operators.   
 There is technically only one operator that directly generates a bang. Its the operator `D`.
 
-* `D` - Delay, bang periodically ()
+* `D` - Delay, bang periodically (count / frame-modulo)
 
 ### 2. First Bleeps
 
@@ -98,19 +113,46 @@ Where:
 Example:   
 `;13C` - Pilot plays note 'C' of octave 3 (default volume and length)
 
-### Putting It All Together
+## Tutorial 2a: CakeTracker
 
-## Tutorial 2: Scopehero
+### 1. Counter
 
-This is a very empowering tutorial with its 13 operators covered.
-Have a look into the directory `tutorials/2_scopehero/`.
+In this chapter you learn 1 of 2 operators that can count.
+
+* `C` - Count (rate / modulo)
+
+### 2. Track
+
+The track lets us store a list and access its elements.
+
+* `T` - Track (index, length / list)
+
+You guessed it, using a counter you can now iterate the elements of a list
+
+### 3. Variables
+
+In this chapter you learn all the operators related to variables:
+
+* `V` - Variable, r/w single (Write: name / val | Read: - / name)
+* `K` - Kontakt, read multiple (Read: count / names)
+
+### 4. CakeTracker
+
+**Putting it all together**
+Using the values of our list (in track) as note-numbers, we are now the new-age melody heroes.   
+Enjoy the eternal bleeps of the spotless beethoven.
+
+## Tutorial 2b: Scopehero
+
+This is a very empowering tutorial with its 13 operators covered.   
+Have a look into the directory `tutorials/2_scopehero/`.   
 There is an orca program for each chapter.
 
 ### 1. Arithmetic
 
 In this chapter you learn (almost) all the operators to generate and manipulate numbers:
 
-* `C` - Count (speed / modulo)
+* `C` - Count (rate / modulo)
 * `I` - Increment (increment / max)
 * `R` - Random (min / max)
 * `A` - Add (operand / operand)
@@ -144,7 +186,7 @@ In this chapter you learn about all the _flying_ operators `\o/ \o/ \o/`:
 
 **Putting it all together**
 
-Yay, by now we have already learned 15 operator, more than half of them all.   
+Yay, by now we have already learned 15 operators, more than half of them all.   
 Now we can combine them to create a 'scope' to visualize and debug any variable values.
 
 ### 6. ScopeHero
@@ -153,7 +195,6 @@ Now we can combine them to create a 'scope' to visualize and debug any variable 
 
 What is even more fun than 1 scope, is 3 scopes.  
 Let generate 2 'signals', add them together to create a third signal, and use our scope technique to visualize whats going on.
-
 
 ## Resources
 
